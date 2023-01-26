@@ -1,5 +1,36 @@
 body{
-    background-color: rgb(51, 50, 49);
-    color: rgb(255, 255, 255);
-   font-family: 'marspolice';
+    background-color: rgba(21, 5, 235, 0.781);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;       
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title{
+    flex-direction: column;
+    line-height:10px;
+}
+
+li{
+    display: inline-block;
+}
+
+h1{
+    font-weight: 200;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
 }
