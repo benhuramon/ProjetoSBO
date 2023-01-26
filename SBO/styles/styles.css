@@ -20,7 +20,7 @@ header{
 }
 
 li{
-    display: block;
+    display: inline-block;
 }
 
 h1{
