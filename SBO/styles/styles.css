@@ -14,11 +14,44 @@ header{
     align-items: center;
 }
 
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: block;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h3{
+    font-weight: 200;
+    font-size: 16px;
+}
+
 main{
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
 }
 
-h4{
-    font-size: 16px;
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input{
+    margin-top: 20px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+img{
+    width: 450px;
+
 }
